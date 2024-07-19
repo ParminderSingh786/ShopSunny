@@ -1,0 +1,144 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     background-color: #E3E6F3;
+     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.30);
+    /* position:relative; */
+    width: 100%;
+    height: 10vh;
+    overflow: hidden;
+    z-index: 100;
+    margin: 10px 8px 0px;
+    border-radius: 20px;
+ }
+ #navbar{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     width: 90%;
+ }
+ #navbar li{
+     list-style-type: none;
+     padding: 0 20px; 
+     position: relative;
+     
+ }
+ #navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+     
+     
+}
+#navbar li a.active{
+    color: green;
+
+}
+#navbar li a:hover{
+   color: white;
+
+
+}
+.head a:hover{
+    color: white;
+    border-bottom: 2px solid black;
+    transition: 2s;
+}
+.first{
+    border: 1px solid;
+    width: 600px;
+    height: 550px;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+margin: 80px 0px;
+}
+#btn{
+    padding: 10px 100px;
+    background-color: orange;
+    color: black;
+}
+#btn:hover{
+    background-color: orangered;
+    color: white;
+}
+.loginBtn{
+    background-color: rgb(242, 168, 30);
+    color: black;
+    padding: 8px 30px;
+    font-size: 20px;
+}
+.loginBtn:hover{
+    background-color: rgb(255, 182, 45);
+    color: white;
+}
+#sec{
+    text-align: center;
+    width: 600px;
+    height: 420px;
+}
+#sec div{
+    margin: 25px 0px ;
+    
+}
+#sec a{
+    color: black;
+    text-decoration: none;
+}
+#sec div:hover{
+    background-color:#f0f8ff ;
+}
+.footer{
+    background-color: black;
+    color: gray;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer a{
+    color: gray;
+   }
+.footer p{
+    margin-top: 5px;
+}
+p.mar{
+    margin-top: 5px;
+}
+strong:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
+#icons{
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+    background-color: black;
+    font-size: 30px;
+}
+#icons a{
+  
+    color: white;
+}
+#icons a:hover{
+    color: blue;
+}
+#icons a.insta:hover{
+    color: mediumvioletred;
+}
+#icons a.youtube:hover{
+    color: red;
+}
